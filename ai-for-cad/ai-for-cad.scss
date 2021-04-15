@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  width: 100px;
+}
+.logoback {
+  background: #fff;
+}
+.backgroundimage_vaccine {
+  min-height: 500px;
+  // height: 90vh;
+  background-image: url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.center_items {
+  min-height: 500px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.bannercontents {
+  color: #fff;
+  align-items: center;
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+}
+.customform {
+  background: #fff;
+  border-radius: 10px;
+  color: #222222;
+  padding: 40px 40px;
+  margin: 0px 20px;
+}
+input {
+  color: #070f12;
+  border: 1px solid #142128 !important;
+}
+input::placeholder {
+  color: #070f12;
+}
+.submit_button {
+  background: #40a3ff;
+  color: #fff;
+  &:hover {
+    background: #40a3ff;
+    color: #fff;
+  }
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #070f12;
+  // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #070f12;
+  box-shadow: none;
+  outline: 0 none;
+}
+.form-check-label {
+  font-size: 14px !important;
+}
+.hovercard {
+  padding: 20px;
+  border-radius: 15px;
+  cursor: default;
+  transition: all 0.5s ease;
+  &:hover {
+    background: #ff5325;
+    color: #fff;
+  }
+}
+.cardimage {
+  width: 90%;
+}
+.ctapage {
+  background: #e7dfde;
+  padding: 60px 0px;
+}
+.book_a_demo_button {
+  padding: 8px 10px;
+  background: #40a3ff;
+  color: #fff;
+  &:hover {
+    background: #40a3ff;
+    color: #fff;
+  }
+}
+// on going to mobile view
+@media all and (max-width: 992px) {
+  .backgroundimage_vaccine {
+    min-height: unset;
+    height: unset;
+  }
+  .center_items {
+    min-height: unset;
+    height: unset;
+    padding: 50px 0px;
+  }
+}
