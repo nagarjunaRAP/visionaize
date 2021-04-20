@@ -18,7 +18,7 @@ html {
 
 .backgroundimage_vaccine {
   min-height: 500px;
-  background-image: url("../assets/banner.jpg");
+  background-image: url("../assets/aiforcad.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -147,6 +147,16 @@ input[type="color"]:focus,
 .book_a_demo_button:hover {
   background: #40a3ff;
   color: #fff;
+}
+
+.darkbackground {
+  background: #0a1318;
+  padding: 70px 0px;
+  color: #fff;
+}
+
+.padding {
+  padding: 70px 0px;
 }
 
 @media all and (max-width: 992px) {
