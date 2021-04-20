@@ -130,7 +130,9 @@ input[type="color"]:focus,
 }
 
 .cardimage {
-  width: 90%;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .ctapage {
