@@ -155,6 +155,10 @@ input[type="color"]:focus,
   padding: 70px 0px;
 }
 
+.companylogo {
+  max-width: 200px;
+}
+
 @media all and (max-width: 992px) {
   .backgroundimage_vaccine {
     min-height: unset;
