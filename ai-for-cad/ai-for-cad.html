@@ -57,74 +57,255 @@
             <div class="row bannercontents">
               <!-- forms -->
               <div class="col-12 col-lg-6 order-1 order-lg-0">
-                <form class="customform">
-                  <div class="form_title text-center mb-3">
-                    <h5>Please Submit the Form</h5>
-                  </div>
-                  <!-- username -->
-                  <div class="form-group">
+                <div
+                  class="bgn-wf-wrapper"
+                  id="crmWebToEntityForm"
+                  style="
+                    max-width: 600px;
+                    margin: 2em auto;
+                    padding: 15px;
+                    border: 1px solid #e1e1e1;
+                    background-color: white;
+                    color: black;
+                  "
+                >
+                  <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                  />
+                  <meta
+                    http-equiv="content-type"
+                    content="text/html;charset=UTF-8"
+                  />
+                  <form
+                    action="https://bigin.zoho.in/crm/WebToContactForm"
+                    name="CMIGNITEWebToContacts"
+                    method="POST"
+                    enctype="multipart/form-data"
+                    onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
+                    accept-charset="UTF-8"
+                  >
+                    <!-- Do not remove this code. -->
                     <input
                       type="text"
-                      class="form-control"
-                      id="username"
-                      placeholder="Enter your name here"
+                      style="display: none"
+                      name="xnQsjsdp"
+                      value="8c5a44735491abde9b3fadbeb4516583dca2e199554e76d77ea713e071a0cd7a"
                     />
-                  </div>
-                  <!-- email -->
-                  <div class="form-group">
+                    <input type="hidden" name="zc_gad" id="zc_gad" value="" />
                     <input
-                      type="email"
-                      class="form-control"
-                      id="user_email"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter your Work Email here"
+                      type="text"
+                      style="display: none"
+                      name="xmIwtLD"
+                      value="7d649830f9b443df5586c9ecba8d5a420e1802b697fcd6778690139b25874adb"
                     />
-                  </div>
-                  <!-- phone number -->
-                  <div class="form-group">
                     <input
-                      type="number"
-                      class="form-control"
-                      id="phonenumber"
-                      placeholder="Enter your Work Phone Number here"
+                      type="text"
+                      style="display: none"
+                      name="actionType"
+                      value="Q29udGFjdHM="
                     />
-                  </div>
-                  <!-- check box -->
-                  <div>
-                    <div>
-                      <label for="areaofinterest" class=""
-                        >Area of Interest</label
-                      >
+                    <input
+                      type="text"
+                      style="display: none"
+                      name="returnURL"
+                      value="https://visionaize.ai/engineering"
+                    />
+                    <div
+                      style="
+                        font-size: 21px;
+                        margin-bottom: 15px;
+                        word-break: break-word;
+                      "
+                    >
+                      Digital Twin
                     </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        id="trackandforecast"
-                        value="Track and Forecast Covid-19"
-                      />
-                      <label class="form-check-label" for="trackandforecast"
-                        >Track and Forecast Covid-19</label
-                      >
+                    <div
+                      style="
+                        border: 0;
+                        width: 100%;
+                        background-color: white;
+                        color: black;
+                        font-family: Arial;
+                        text-align: left;
+                        font-size: 14;
+                      "
+                    >
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label">
+                          First Name
+                          <span class="bgn-star">&#42;</span>
+                        </div>
+                        <div class="bgn-wf-field">
+                          <input
+                            name="First Name"
+                            type="text"
+                            maxlength="40"
+                            value=""
+                            placeholder=""
+                            style="
+                              border: 1px solid #e2e0df;
+                              padding: 10px 15px;
+                              max-width: 480px;
+                              border-radius: 3px;
+                            "
+                          />
+                        </div>
+                      </div>
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label">
+                          Last Name
+                          <span class="bgn-star">&#42;</span>
+                        </div>
+                        <div class="bgn-wf-field">
+                          <input
+                            name="Last Name"
+                            type="text"
+                            maxlength="80"
+                            value=""
+                            placeholder=""
+                            style="
+                              border: 1px solid #e2e0df;
+                              padding: 10px 15px;
+                              max-width: 480px;
+                              border-radius: 3px;
+                            "
+                          />
+                        </div>
+                      </div>
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label">
+                          Email
+                          <span class="bgn-star">&#42;</span>
+                        </div>
+                        <div class="bgn-wf-field">
+                          <input
+                            name="Email"
+                            type="text"
+                            maxlength="100"
+                            value=""
+                            placeholder=""
+                            style="
+                              border: 1px solid #e2e0df;
+                              padding: 10px 15px;
+                              max-width: 480px;
+                              border-radius: 3px;
+                            "
+                          />
+                        </div>
+                      </div>
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label">
+                          Contant No.
+                          <span class="bgn-star">&#42;</span>
+                        </div>
+                        <div class="bgn-wf-field">
+                          <input
+                            name="Mobile"
+                            type="text"
+                            maxlength="30"
+                            value=""
+                            placeholder=""
+                            style="
+                              border: 1px solid #e2e0df;
+                              padding: 10px 15px;
+                              max-width: 480px;
+                              border-radius: 3px;
+                            "
+                          />
+                        </div>
+                      </div>
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label">
+                          Company Name
+                          <span class="bgn-star">&#42;</span>
+                        </div>
+                        <div class="bgn-wf-field">
+                          <input
+                            name="Account Name"
+                            type="text"
+                            maxlength="120"
+                            value=""
+                            placeholder=""
+                            style="
+                              border: 1px solid #e2e0df;
+                              padding: 10px 15px;
+                              max-width: 480px;
+                              border-radius: 3px;
+                            "
+                          />
+                        </div>
+                      </div>
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label">Any Message</div>
+                        <div class="bgn-wf-field">
+                          <textarea
+                            name="Description"
+                            maxlength="32000"
+                            placeholder=""
+                            style="
+                              border: 1px solid #e2e0df;
+                              padding: 10px 15px;
+                              max-width: 480px;
+                              border-radius: 3px;
+                            "
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="bgn-wf-row">
+                        <div class="bgn-wf-label"></div>
+                        <div class="bgn-wf-field">
+                          <input
+                            onclick="disableSubmitwhileReset()"
+                            type="reset"
+                            style="
+                              margin-right: 10px;
+                              margin-bottom: 10px;
+                              font-size: 13px;
+                              border-radius: 3px;
+                              vertical-align: middle;
+                              background-color: #fff;
+                              border-color: #222;
+                              padding: 8px 15px;
+                              color: #3c3c3c;
+                              border: solid 1px #d4d3d2;
+                              display: inline-block;
+                              width: auto;
+                            "
+                            value="Reset"
+                          />
+                          <input
+                            style="
+                              margin-bottom: 10px;
+                              opacity: ;
+                              font-size: 13px;
+                              color: #fff;
+                              border-radius: 3px;
+                              vertical-align: middle;
+                              background-color: #1980d8;
+                              border-color: #1980d8;
+                              padding: 8px 15px;
+                              display: inline-block;
+                              width: auto;
+                            "
+                            id="formsubmit"
+                            type="submit"
+                            value="Submit"
+                          />
+                        </div>
+                      </div>
                     </div>
-                    <div class="form-check form-check-inline">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        id="manageandimprove"
-                        value="option2"
-                      />
-                      <label class="form-check-label" for="manageandimprove"
-                        >Manage and Improve Vaccine Administration</label
-                      >
-                    </div>
-                  </div>
-                  <div class="d-flex justify-content-center mt-4">
-                    <button type="submit" class="btn submit_button">
-                      REQUEST A CONSULTATION
-                    </button>
-                  </div>
-                </form>
+                    <script>
+                       var mndFileds=new Array('First Name','Last Name','Email','Mobile','Account Name');
+                       var fldLangVal=new Array('First Name','Last Name','Email','Contant No.','Company Name');
+                       var name='';
+                       var email='';
+                      function (){var e=document.getElementById("formsubmit");null!==document.getElementById("privacyTool")||null!==document.getElementById("consentTool")?(e.disabled=!0,e.style.opacity="0.5;"):e.removeAttribute("disabled")}
+                      function (){var e,t=mndFileds.length;for(e=0;e<t;e++){var i=document.forms.CMIGNITEWebToContacts[mndFileds[e]];if(i){if(0===i.value.replace(/^\s+|\s+$/g,"").length)return"file"===i.type?(alert("Please select a file to upload."),i.focus(),!1):(alert(fldLangVal[e]+" cannot be empty."),i.focus(),!1);if("SELECT"===i.nodeName){if("-None-"===i.options[i.selectedIndex].value)return alert(fldLangVal[e]+" cannot be none."),i.focus(),!1}else if("checkbox"===i.type&&!1===i.checked)return alert("Please accept  "+fldLangVal[e]),i.focus(),!1;try{"Last Name"===i.name&&(name=i.value)}catch(e){murphy.error(e)}}}return validateFileUpload()}
+                      function (){var e=document.getElementById("theFile"),t=0;if(e){if(e.files.length>3)return alert("You can upload a maximum of three files at a time."),!1;if("files"in e){var i=e.files.length;if(0!==i){for(var o=0;o<i;o++){var a=e.files[o];"size"in a&&(t+=a.size)}if(t>20971520)return alert("Total file(s) size should not exceed 20MB."),!1}}}}
+                    </script>
+                  </form>
+                </div>
               </div>
               <!-- banner contents -->
               <div class="col-12 col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0">
