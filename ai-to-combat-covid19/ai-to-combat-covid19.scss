@@ -11,6 +11,10 @@ html {
 .logoback {
   background: #fff;
 }
+a.nostyle {
+  text-decoration: none;
+  color: inherit;
+}
 .backgroundimage_vaccine {
   min-height: 500px;
   // height: 90vh;
@@ -130,7 +134,7 @@ html {
   margin: auto;
   border: none;
   padding: 15px;
-  background-color: #fff;
+  // background-color: #fff;
   color: #333;
 }
 .bgn-wf-row {
@@ -144,6 +148,7 @@ html {
   align-self: center;
   word-break: break-word;
   position: relative;
+  color: #fff;
 }
 .bgn-wf-field {
   vertical-align: top;
