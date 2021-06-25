@@ -122,7 +122,7 @@ html {
 }
 
 .bgn-wf-row {
-  padding: 2px 0 2px 0;
+  padding: 0px 0 0px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
